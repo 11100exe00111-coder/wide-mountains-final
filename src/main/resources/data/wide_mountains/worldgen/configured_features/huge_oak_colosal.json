@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "dirt_provider": {"type": "minecraft:simple_state_provider","state": {"Name": "minecraft:dirt"}},
+    "trunk_provider": {"type": "minecraft:simple_state_provider","state": {"Name": "minecraft:oak_log"}},
+    "foliage_provider": {"type": "minecraft:simple_state_provider","state": {"Name": "minecraft:oak_leaves"}},
+    "trunk_placer": {"type": "minecraft:large_oak_trunk_placer","base_height": 70,"height_rand_a": 20,"height_rand_b": 10,"foliage_height": 12},
+    "foliage_placer": {"type": "minecraft:blob_foliage_placer","radius": 75,"offset": 6,"height": 20},
+    "minimum_size": {"type": "minecraft:two_layers_feature_size","limit": 2,"lower_size": 0,"upper_size": 2}
+  }
+}
