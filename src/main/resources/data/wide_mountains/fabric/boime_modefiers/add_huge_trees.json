@@ -1,0 +1,10 @@
+{
+  "type": "fabric:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "wide_mountains:huge_oak_colossal_placed",
+    "wide_mountains:huge_acacia_colossal_placed",
+    "wide_mountains:huge_spruce_colossal_placed"
+  ],
+  "step": "vegetal_decoration"
+}
