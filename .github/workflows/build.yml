@@ -1,5 +1,4 @@
-concurrency:
-  - name: Setup Java
+- name: Setup Java
   uses: actions/setup-java@v4
   with:
     java-version: '25'
