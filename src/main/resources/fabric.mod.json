@@ -2,19 +2,20 @@
   "schemaVersion": 1,
   "id": "wide_mountains",
   "version": "${version}",
-  "name": "Terralin",
-  "description": "Upgrades your MC.",
-  "authors": "11100exe00111-coder",
+  "name": "Wide Mountains",
+  "description": "Bigger mountains up to 300 blocks, vanilla world height",
+  "authors": ["You"],
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
     "main": ["com.example.ExampleMod"]
   },
-  "mixins": ["modid.mixins.json", "wide_mountains.mixins.json"],
+  "mixins": [
+    "wide_mountains.mixins.json"
+  ],
   "depends": {
-    "fabricloader": ">=0.18.1",
+    "fabricloader": ">=0.15.0",
     "minecraft": "~1.21",
-    "java": ">=21",
-    "fabric-api": "*"
+    "java": ">=21"
   }
 }
