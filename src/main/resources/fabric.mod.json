@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "Terralin",
   "description": "Upgrades your MC.",
-  "authors": ["11100exe00111-coder"],
+  "authors": "11100exe00111-coder",
   "license": "MIT",
   "environment": "21",
   "entrypoints": {
