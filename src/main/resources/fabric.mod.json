@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "id": "wide_mountains",
-  "version": "${0.0.1}",
+  "version": "${version}",
   "name": "Terralin",
   "description": "Upgrades your MC.",
   "authors": ["11100exe00111-coder"],
   "license": "MIT",
-  "environment": "*",
+  "environment": "21",
   "entrypoints": {
     "main": ["com.example.ExampleMod"]
   },
