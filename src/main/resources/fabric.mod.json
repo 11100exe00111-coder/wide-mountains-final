@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "wide_mountains",
-  "version": "${version}",
+  "version": "${0.0.1}",
   "name": "Terralin",
-  "description": "Upgrades your MC and you just select what you want",
+  "description": "Upgrades your MC.",
   "authors": ["11100exe00111-coder"],
   "license": "MIT",
   "environment": "*",
@@ -14,7 +14,7 @@
   "depends": {
     "fabricloader": ">=0.15.0",
     "minecraft": "~1.21",
-    "java": ">=21",
+    "java": ">=25",
     "fabric-api": "*"
   }
 }
